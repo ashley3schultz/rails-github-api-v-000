@@ -2,7 +2,7 @@ require_relative '../spec_helper'
 
 describe "authentication" do
   it "displays the username on the page" do
-    visit '/auth?code=20'
+    visit '/'
     expect(page).to have_content 'your_username'
   end
 end
