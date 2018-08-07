@@ -9,7 +9,7 @@ class RepositoriesController < ApplicationController
     redirect_to '/'
   end
 
-  def other 
+  def other
     redirect_to root_path
-  end 
+  end
 end
